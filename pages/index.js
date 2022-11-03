@@ -112,7 +112,7 @@ const Home = () => (
           &quot; has more than 100k subscribers.
         </Paragraph> */}
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/10pRw_PVGv3tT5d9BqDf5X-nND6FKadUi/view" passHref target="_blank" scroll={false}>
+          <NextLink href="https://drive.google.com/file/d/10pRw_PVGv3tT5d9BqDf5X-nND6FKadUi/view?usp=share_link" passHref target="_blank" scroll={false}>
             <a target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Resume
