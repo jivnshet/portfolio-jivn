@@ -16,10 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-// import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-// import thumbYouTube from '../public/images/links/youtube.png'
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -37,7 +34,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a full stack blockchain developer based in India!
+        Hello, I&apos;m a full stack developer based in India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -79,20 +76,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Jivn is a full-stack blockchain developer/freelancer based in India with a
+          Jivn is a full-stack developer/freelancer based in India with a
           passion for building digital services/stuff. He has a knack
           for coding, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
-          snacking. Currently, he is living off of as a Blockchain Developer developing apps
-          {/* <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers. */}
+          snacking.
         </Paragraph>
         {/* <Paragraph>
           Jivn is a freelancer and a full-stack blockchain developer based in India with a
@@ -101,18 +89,18 @@ const Home = () => (
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
           product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
+          <NextLink href="/works/what" passHref scroll={false}>
+            <Link>what</Link>
           </NextLink>
-          . He publishes content for marketing his products and his YouTube
+          . He publishes entertaining content on his YouTube
           channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
+          <NextLink href="https://www.youtube.com/" passHref>
+            <Link target="_blank">What a Life</Link>
           </NextLink>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 100M subscribers.
         </Paragraph> */}
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/10pRw_PVGv3tT5d9BqDf5X-nND6FKadUi/view?usp=share_link" passHref target="_blank" scroll={false}>
+          <NextLink href="https://drive.google.com/file/d/1nT4L9lJHZvpmpDAbeOYp-e6wA0NTPGRe/view" passHref target="_blank" scroll={false}>
             <a target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Resume
@@ -136,16 +124,12 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Worked at L&#38;T Constructions, India
+          Started as a Frontend Developer at L&#38;T Constructions, India
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
           Working as a freelancer and entrepreneur
         </BioSection>
-        {/* <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Working as a Blockchain Dev. for State Govt.
-        </BioSection> */}
       </Section>
 
       <Section delay={0.3}>
@@ -154,7 +138,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          {/* <Link href="https://illust.odoruinu.net/" target="_blank">
+          {/* <Link href="https://illusttd.fddodofdruinu.net/" target="_blank">
             Dancing
           </Link> */}
           Pizza,{' '}
@@ -198,13 +182,13 @@ const Home = () => (
             </Link>
           </ListItem>
           {/* <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/nothing" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @nothing (English)
               </Button>
             </Link>
           </ListItem> */}
@@ -234,14 +218,14 @@ const Home = () => (
 
         {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://www.youtube.com/"
+            title="What a Life"
             thumbnail={thumbYouTube}
           >
             My YouTube channel (&gt;100k subs)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
+            href="https://www.nothing.app/"
             title="Inkdrop"
             thumbnail={thumbInkdrop}
           >
