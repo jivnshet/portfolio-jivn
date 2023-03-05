@@ -116,16 +116,16 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>1995</BioYear>
-          Born in Surat, India
+          Born in Dharwad, India
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           Completed B. Tech, Electrical and Electronics Engineering from National Institute of Technology, Goa
         </BioSection>
-//         <BioSection>
-//           <BioYear>2017</BioYear>
-//           Started as a Frontend Developer at L&#38;T Constructions, India
-//         </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Started as a Frontend Developer at L&#38;T Constructions, India
+        </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
           Working as a freelancer and entrepreneur
