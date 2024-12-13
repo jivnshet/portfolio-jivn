@@ -134,10 +134,6 @@ const Home = () => (
           <BioYear>2024</BioYear>
           Started as a Senior Software Engineer at Servion
         </BioSection>
-        // <BioSection>
-        //   <BioYear>2021 to present</BioYear>
-        //   Working as a freelancer and entrepreneur
-        // </BioSection>
       </Section>
 
       <Section delay={0.3}>
