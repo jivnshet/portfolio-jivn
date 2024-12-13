@@ -100,7 +100,7 @@ const Home = () => (
           &quot; has more than 100M subscribers.
         </Paragraph> */}
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1QIlOHHmi3gSKriM2iFvEfFOILM-UTPVc/view" passHref target="_blank" scroll={false}>
+          <NextLink href="https://drive.google.com/file/d/1DRrDPTq9tJUFeBpnEOHAr09P0CD51tJh/view?usp=drive_link" passHref target="_blank" scroll={false}>
             <a target="_blank">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Resume
@@ -124,16 +124,20 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Started as a Frontend Developer at L&#38;T Constructions, India
+          Started as a Frontend Developer at L&#38;T
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Started as a Frontend Developer at Sutrix, India
+          Started as a Frontend Lead at Sutrix
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
-          Working as a freelancer and entrepreneur
+          <BioYear>2024</BioYear>
+          Started as a Senior Software Engineer at Servion
         </BioSection>
+        // <BioSection>
+        //   <BioYear>2021 to present</BioYear>
+        //   Working as a freelancer and entrepreneur
+        // </BioSection>
       </Section>
 
       <Section delay={0.3}>
@@ -141,19 +145,19 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
+          Music,{' '}
           {/* <Link href="https://illusttd.fddodofdruinu.net/" target="_blank">
             Dancing
           </Link> */}
           Pizza,{' '}
           <Link href="https://www.linkedin.com/feed/update/urn:li:activity:6993589488983707648/" target="_blank">
-            Metaverse
+            Metaverse,{' '}
           </Link>
           <Link href="https://github.com/jivnshet?tab=repositories" target="_blank">
-            , Blockchain
+            Blockchain,{' '}
           </Link>
           <Link href="https://github.com/jivnshet?tab=repositories" target="_blank">
-            , Web Development
+            Web Development
           </Link>
         </Paragraph>
       </Section>
@@ -169,6 +173,17 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
+              >
+                @jivnshet
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/jivnshet" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
               >
                 @jivnshet
               </Button>
@@ -207,17 +222,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/jivnshet" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @jivnshet
-              </Button>
-            </Link>
-          </ListItem>
+          
         </List>
 
         {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
