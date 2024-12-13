@@ -164,7 +164,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          On the Web
         </Heading>
         <List>
           <ListItem>
