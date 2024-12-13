@@ -147,11 +147,13 @@ const Home = () => (
           </Link> */}
           Pizza,{' '}
           <Link href="https://www.linkedin.com/feed/update/urn:li:activity:6993589488983707648/" target="_blank">
-            Metaverse,{' '}
+            Metaverse
           </Link>
+            ,{' '}
           <Link href="https://github.com/jivnshet?tab=repositories" target="_blank">
-            Blockchain,{' '}
+            Blockchain
           </Link>
+            ,{' '}
           <Link href="https://github.com/jivnshet?tab=repositories" target="_blank">
             Web Development
           </Link>
