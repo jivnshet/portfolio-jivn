@@ -76,10 +76,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Jivn is a full-stack developer/freelancer based in India with a
-          passion for building digital services/stuff. He has a knack
+          Jivn is a full-stack developer based in India with a
+          passion for building digital stuff. Has a knack
           for coding, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
+          way to solving real-life problems with code. When not online, loves
           snacking.
         </Paragraph>
         {/* <Paragraph>
